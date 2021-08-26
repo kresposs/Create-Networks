@@ -6,9 +6,15 @@ Il file CSV preso in pasto dovrà contenere i seguenti campi:
 ```ORG_ID;NETWORK_NAME;NETWORK_DEVICEs_TYPE```
 
 ### Piccoli inconvenienti
-Fra una richiesta API per la creazione di una Network e la successiva, sono necessari *almeno* 60 secondi di attesa. Da qui il ```time.sleep(60)```
+Fra una richiesta API per la creazione di una Network e la successiva, sono necessari *almeno* 60 secondi di attesa. Da qui: 
+```python 
+time.sleep(60)
+```
 
 ### Roadmap
 - Creazione delle Network e possibile binding ad un template;
 - Semplificazione del file CSV, escludendo l'Organization ID;
+___
+
+Il codice è banale, puoi leggerlo [qui](https://github.com/kresposs/Create-Networks/blob/main/CreateNetworks.py "CreateNetworks.py").
 
