@@ -13,7 +13,7 @@ time.sleep(60)
 
 ### Roadmap
 - Creazione delle Network e possibile binding ad un template;
-- Semplificazione del file CSV, escludendo l'Organization ID;
+- Semplificazione del file CSV, escludendo l'hardcoding dell'Organization ID;
 ___
 
 Il codice è banale, puoi leggerlo [qui](https://github.com/kresposs/Create-Networks/blob/main/CreateNetworks.py "CreateNetworks.py").
