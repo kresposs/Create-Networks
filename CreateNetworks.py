@@ -9,7 +9,7 @@ def main():
     API_KEY = pyip.inputPassword()
     session = meraki.DashboardAPI(API_KEY)
     networks = []
-    variabileDiMerda = []
+    tmp = []
 
     with open("input-file.csv", "r") as f:
         reader = csv.reader(f)
@@ -17,12 +17,12 @@ def main():
             row = row[0].split(sep=";")
             networks.append(row)
     
-    variabileDiMerda.append(networks[0][2])
+    tmp.append(networks[0][2])
         
     
     for i in range(len(networks)):
         #print(networks[i])
-        response = session.organizations.createOrganizationNetwork(networks[i][0], networks[i][1], variabileDiMerda)
+        response = session.organizations.createOrganizationNetwork(networks[i][0], networks[i][1], tmp)
         time.sleep(60)
     
 
