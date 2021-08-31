@@ -25,6 +25,10 @@ def main():
 
     print(f"Session created. For every request, there will be a 60 seconds delay!\n")
 
+    """
+    INPUT FILE IS A CSV FILE:
+    Organization-ID;Network-ID;Friendly-name;VLAN_1-subnet;VLAN_1-applianceIp;VLAN_2-subnet;VLAN_2-applianceIp;VLAN_3-subnet;VLAN_3-applianceIp
+    """
     with open("input-file-net.csv", "r") as f:
         reader = csv.reader(f)
         for row in reader:
