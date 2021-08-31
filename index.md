@@ -18,5 +18,5 @@ Ad oggi, per poter mandare in produzione delle Network in maniera rapida, ho *ha
 - Pulizia, pulizia, pulizia...
 ___
 
-Il codice è banale, puoi leggerlo [qui](https://github.com/kresposs/Create-Networks/blob/main/CreateNetworks.py "CreateNetworks.py").
+Il codice è banale, puoi leggerlo [qui](https://kresposs.github.io/Create-Networks/ "Meraki Automation").
 
