@@ -9,9 +9,13 @@ Fra una richiesta API per la creazione di una Network e la successiva, sono nece
 ```python 
 time.sleep(60)
 ```
+### Script per la modifica in maniera massiva delle VLAN
+Ad oggi, per poter mandare in produzione delle Network in maniera rapida, ho *hardcodato* il VLAN tag e altro. Ovviamente aggiorno il tutto con molta calma e molta progettazione...
+
 ### Roadmap
 - Creazione delle Network e possibile binding ad un template;
-- Semplificazione del file CSV, escludendo l'hardcoding dell'Organization ID;
+- Semplificazione del file CSV, escludendo l'hardcoding dell'Organization ID e di altri campi;
+- Pulizia, pulizia, pulizia...
 ___
 
 Il codice è banale, puoi leggerlo [qui](https://github.com/kresposs/Create-Networks/blob/main/CreateNetworks.py "CreateNetworks.py").
